@@ -1,0 +1,27 @@
+{
+  "Records": [
+    {
+      "EventSource": "aws:sns",
+      "EventVersion": "1.0",
+      "EventSubscriptionArn": "arn:aws:sns:<REGION>:<ACCOUNT_ID>:user-events:00000000-0000-0000-0000-000000000000",
+      "Sns": {
+        "Type": "Notification",
+        "MessageId": "95df01b4-ee98-5cb9-9903-4c221d41eb5e",
+        "TopicArn": "arn:aws:sns:<REGION>:<ACCOUNT_ID>:user-events",
+        "Subject": "USER_REGISTERED",
+        "Message": "{\"event\": \"USER_REGISTERED\", \"name\": \"Carlos López\", \"email\": \"carlos@email.com\"}",
+        "Timestamp": "2026-01-01T12:00:00.000Z",
+        "SignatureVersion": "1",
+        "Signature": "EXAMPLE",
+        "SigningCertUrl": "https://sns.<REGION>.amazonaws.com/SimpleNotificationService-EXAMPLE.pem",
+        "UnsubscribeUrl": "https://sns.<REGION>.amazonaws.com/?Action=Unsubscribe&SubscriptionArn=EXAMPLE",
+        "MessageAttributes": {
+          "event": {
+            "Type": "String",
+            "Value": "USER_REGISTERED"
+          }
+        }
+      }
+    }
+  ]
+}

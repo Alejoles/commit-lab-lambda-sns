@@ -1,0 +1,30 @@
+{
+  "resource": "/register",
+  "path": "/register",
+  "httpMethod": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Host": "<API_ID>.execute-api.<REGION>.amazonaws.com",
+    "User-Agent": "curl/8.5.0"
+  },
+  "multiValueHeaders": {
+    "Content-Type": ["application/json"]
+  },
+  "queryStringParameters": null,
+  "pathParameters": null,
+  "stageVariables": null,
+  "requestContext": {
+    "resourcePath": "/register",
+    "httpMethod": "POST",
+    "path": "/dev/register",
+    "stage": "dev",
+    "requestId": "c6af9ac6-7b61-11e6-9a41-93e8deadbeef",
+    "apiId": "<API_ID>",
+    "identity": {
+      "sourceIp": "203.0.113.10",
+      "userAgent": "curl/8.5.0"
+    }
+  },
+  "body": "{\"name\":",
+  "isBase64Encoded": false
+}
