@@ -1,0 +1,4 @@
+# Development-only dependencies. boto3 is already included in the Lambda runtime,
+# so it is never packaged with the functions.
+pytest>=8
+boto3>=1.34

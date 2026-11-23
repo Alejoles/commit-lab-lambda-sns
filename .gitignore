@@ -1,0 +1,43 @@
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+
+# Lambda packaging artifacts
+build/
+dist/
+*.zip
+
+# Secrets and local config
+.env
+.env.*
+*.pem
+.aws/
+credentials
+
+# Editors / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+
+# Events with real account ID / region / API ID (generated from templates)
+events/local/
+
+# Tooling / agent files
+.codegraph/
+.atl/
+.claude/
+
+# Lab handout and working plan (delivered through Notion, not this repo)
+taller-lambda-sns.md
+plan-implementacion-lambda-sns.md
+
+# Raw evidence may contain account IDs or emails: review before committing.
+# Only sanitized screenshots belong in docs/evidence/.
+docs/evidence/raw/
